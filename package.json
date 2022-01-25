@@ -1,0 +1,17 @@
+{
+  "name": "musictools",
+  "version": "1.0.0",
+  "description": "some cli music tools",
+  "main": "index.js",
+  "bin": {
+    "random-notes": "./src/randomNotes.js"
+  },
+  "scripts": {
+    "randomNotes": "node ./src/randomNotes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pendulum": "0.0.1"
+  }
+}
